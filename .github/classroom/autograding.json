@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Odd value",
+      "setup": "g++ -o a.out ./Lab/Lab06-For-Loop.cpp",
+      "run": "./a.out",
+      "input": "11",
+      "output": "Series: 1 3 5 7 9 11",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Even Value",
+      "setup": "g++ -o a.out ./Lab/Lab06-For-Loop.cpp",
+      "run": "./a.out",
+      "input": "8",
+      "output": "Series: 8 6 4 2 0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
